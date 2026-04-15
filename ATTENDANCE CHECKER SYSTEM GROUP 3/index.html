@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Attendance System</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <a href="#home" class="btn">Home</a>
+  <div class="branding">
+  <img src="HOMEPAGE.jpg";
+  <h1>SIMPLE ATTENDANCE CHECKER DESIGN</h1>
+</div>
+<a href="#add" class="addSection-btn">+ Add Class</a>
+</header>
+
+
+<nav>
+<div class="buttons">
+<a href="#sec1" class="section-btn"> FB1-IT1-01</a>
+<a href="#sec2" class="section-btn"> FB1-IT1-02</a>
+<a href="#sec3" class="section-btn"> FB1-IT1-03</a>
+<a href="#records" class="section-btn">📊 Records</a>
+</div>
+</nav>
+
+
+<section id="home">
+<h2> Welcome to Attendance System</h2>
+<p>Select a class above to mark attendance.</p>
+</section>
+</section>
+
+
+<section id="sec1">
+<h2>🔵 FB1-IT1-01</h2>
+<label>Date: <input type="date"></label>
+<div class="student-grid">
+<div class="card"><h4>Aceron, Jake B.</h4><div class="radio-group"><label><input type="radio" name="s1a" value="P">Present</label><label><input type="radio" name="s1a" value="A">Absent</label><label><input type="radio" name="s1a" value="L">Late</label></div></div>
+<div class="card"><h4>Cabaneros, Alfred</h4><div class="radio-group"><label><input type="radio" name="s1b" value="P">Present</label><label><input type="radio" name="s1b" value="A">Absent</label><label><input type="radio" name="s1b" value="L">Late</label></div></div>
+<div class="card"><h4>Dacut, Rica May</h4><div class="radio-group"><label><input type="radio" name="s1c" value="P">Present</label><label><input type="radio" name="s1c" value="A">Absent</label><label><input type="radio" name="s1c" value="L">Late</label></div></div>
+<div class="card"><h4>Gamolo, Wislly</h4><div class="radio-group"><label><input type="radio" name="s1d" value="P">Present</label><label><input type="radio" name="s1d" value="A">Absent</label><label><input type="radio" name="s1d" value="L">Late</label></div></div>
+<div class="card"><h4>Espinosa, Gabrylle</h4><div class="radio-group"><label><input type="radio" name="s1e" value="P">Present</label><label><input type="radio" name="s1e" value="A">Absent</label><label><input type="radio" name="s1e" value="L">Late</label></div></div>
+</div>
+<button class="submit">✅ Submit</button><br><a href="#home" class="">← </a>
+</section>
+
+
+<section id="sec2">
+<h2>🔵 FB1-IT1-02</h2>
+<label>Date: <input type="date"></label>
+<div class="student-grid">
+<div class="card"><h4>Abecia, John T.</h4><div class="radio-group"><label><input type="radio" name="s2a" value="P">Present</label><label><input type="radio" name="s2a" value="A">Absent</label><label><input type="radio" name="s2a" value="L">Late</label></div></div>
+<div class="card"><h4>Bacarrisas, Clint</h4><div class="radio-group"><label><input type="radio" name="s2b" value="P">Present</label><label><input type="radio" name="s2b" value="A">Absent</label><label><input type="radio" name="s2b" value="L">Late</label></div></div>
+</div>
+<button class="submit">✅ Submit</button><br><a href="#home" class=""></a>
+</section>
+
+
+<section id="sec3">
+<h2>🔵 FB1-IT1-03</h2>
+<label>Date: <input type="date"></label>
+<div class="student-grid">
+<div class="card"><h4>Auguis, Mary Divine</h4><div class="radio-group"><label><input type="radio" name="s3a" value="P">Present</label><label><input type="radio" name="s3a" value="A">Absent</label><label><input type="radio" name="s3a" value="L">Late</label></div></div>
+<div class="card"><h4>Dalogdog, Ian</h4><div class="radio-group"><label><input type="radio" name="s3b" value="P">Present</label><label><input type="radio" name="s3b" value="A">Absent</label><label><input type="radio" name="s3b" value="L">Late</label></div></div>
+<div class="card"><h4>Evangelista, Ken.</h4><div class="radio-group"><label><input type="radio" name="s3c" value="P">Present</label><label><input type="radio" name="s2c" value="A">Absent</label><label><input type="radio" name="s3c" value="L">Late</label></div></div>
+</div>
+<button class="submit">✅ Submit</button><br><a href="#home" class="">← </a>
+</section>
+
+
+
+
+<section id="records">
+<h2> Attendance Records</h2>
+<p>Sample attendance records (demo)</p>
+<div class="sample-card">
+<h3> FB1-IT1-01 • Sample Record</h3>
+<table class="sample-table">
+<tr><th>Name</th><th>Status</th></tr>
+<tr><td>Aceron, Jake B.</td><td class="present">Present</td></tr>
+<tr><td>Cabaneros Alfred</td><td class="late">Late</td></tr>
+</table>
+</div>
+
+
+</section>
+
+
+<section id="add">
+<h2>+ Add New Section</h2>
+<label>Section Name:</label><input type="text" placeholder="section4"><br>
+<label>Students (comma separated):</label><textarea style="width:100%;max-width:500px;height:120px;margin:10px 0;"></textarea><br>
+<button class="submit"> Save Section</button><br><a href="#home" class="">← </a>
+</section>
+
+
+<footer class="site-footer">College of Information Technology • Cagayan de Oro College</footer>
+</body>
+</html>
